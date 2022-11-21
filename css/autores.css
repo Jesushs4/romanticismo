@@ -1,0 +1,42 @@
+/*****************************************************/
+/*  Web del romanticismo - hoja de estilo de autores */
+/*  Autor: Jesús Herrera Sánchez                     */
+/*  Version 1.0 - 24/10/2022                         */
+/*****************************************************/
+
+/****************** Estilo general *******************/
+
+@font-face {
+    font-family: titulos;
+    src:url('./../fonts/FjallaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: texto;
+    src:url('./../fonts/LibreBaskerville-Regular.ttf');
+}
+
+body { font-family: texto;
+        font-size: 1.2em;
+        padding:2%;
+        box-sizing:border-box;}
+
+h1,h2,h3 {font-family: titulos;}
+
+h1{text-decoration: underline;}
+
+p{text-align:justify;
+    text-indent:2em;}
+/* con float consigo que la imagen salga con el texto alrededor */
+#espronceda {width:20%;
+            float: right;
+            padding:15px;}
+
+@media only screen and (width<=800px) {
+        #espronceda {width:50%;}
+}
+
+@media only screen and (width<=500px) {
+    #espronceda {width:100%}
+
+}

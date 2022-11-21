@@ -1,0 +1,25 @@
+/******************************************************/
+/* Web del romanticismo - hoja de estilo de autores   */
+/* Autor: Jesús Herrera Sánchez                       */
+/* Version 1.0 - 7/11/2022                            */
+/******************************************************/
+
+/******************** estilo general ******************/
+
+@font-face {
+    font-family: escritura;
+    src: url('../fonts/Courgette-Regular.ttf')
+}
+
+body {font-family:escritura;
+    font-size: 1.2em;
+    background-image: url('../images/fondo.jpg');
+    background-repeat: repeat-y;
+    background-size: 15%;
+    background-color: #C6A273;
+    /* background-position: bottom; */
+
+}
+
+#wrapper {margin-left: 20%;
+            color: #194892;}
